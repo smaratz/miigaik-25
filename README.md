@@ -21,6 +21,20 @@ url2 =>[url] => [url] =>url1
 url1 =>[url] => [url] =>url2
 
 **Установка**
+Для развертывания и запуска скрипта требуется наличие Python 3.x и следующих внешних библиотек:
+
+Клонируйте репозиторий:
+
+git clone [https://github.com/your-username/Software-Development-and-Scripting-Languages.git](https://github.com/your-username/Software-Development-and-Scripting-Languages.git)
+cd Software-Development-and-Scripting-Languages
+(Замените your-username на имя вашего пользователя GitHub)
+
+Установите зависимости:
+
+pip install requests beautifulsoup4 collections time re sys urllib.parse
+Либо запустите
+
+pip install -r requirements.txt
 
 
 **Запуск**
