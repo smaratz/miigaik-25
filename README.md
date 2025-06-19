@@ -25,7 +25,7 @@ url1 =>[url] => [url] =>url2
 
 Клонируйте репозиторий:
 
-git clone [https://github.com/your-username/Software-Development-and-Scripting-Languages.git](https://github.com/your-username/Software-Development-and-Scripting-Languages.git)
+git clone [https://github.com/your-username/miigaik-25.git](https://github.com/your-username/miigaik-25.git)
 cd Software-Development-and-Scripting-Languages
 (Замените your-username на имя вашего пользователя GitHub)
 
@@ -36,12 +36,16 @@ pip install requests beautifulsoup4 collections time re sys urllib.parse
 
 pip install -r requirements.txt
 
-
 **Запуск**
 
+Запустите скрипт из командной строки, передав два URL-адреса статей Википедии и максимальное количество запросов в секунду (rate limit).
 
+python 6-hands.py <url1> <url2> <rate_limit>
+Описание аргументов:
 
-
+<url1>: Полный URL-адрес первой (стартовой) статьи Википедии.
+<url2>: Полный URL-адрес второй (целевой) статьи Википедии.
+<rate_limit>: Целое положительное число, задающее максимально допустимое количество HTTP-запросов к Википедии в секунду. Рекомендуемое значение: 10.
 
 **Автор**
 
